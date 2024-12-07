@@ -1,0 +1,110 @@
+[
+    {
+        "model": "classroom.Student",
+        "pk": 63114540210,
+        "fields": {
+            "first_name": "Wancharoen",
+            "last_name": "Upamai",
+            "email": "wancharoen.up.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540283,
+        "fields": {
+            "first_name": "sunita",
+            "last_name": "boonching",
+            "email": "sunita.bo.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540394,
+        "fields": {
+            "first_name": "Natinan",
+            "last_name": "Raksakantong",
+            "email": "natinan.ra.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540238,
+        "fields": {
+            "first_name": "sirirat",
+            "last_name": "tiyabut",
+            "email": "sirirat.ti.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540034,
+        "fields": {
+            "first_name": "Kittipich",
+            "last_name": "Pakdeekasikorn",
+            "email": "kittipich.pa.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 6314540466,
+        "fields": {
+            "first_name": "Nuengruethai",
+            "last_name": "Khamto",
+            "email": "nuengruethai.kh.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540129,
+        "fields": {
+            "first_name": "Warit",
+            "last_name": "Anannukul",
+            "email": "warit.an.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540142,
+        "fields": {
+            "first_name": "Patiphan",
+            "last_name": "Thippanet",
+            "email": "phatiphan.th.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540059,
+        "fields": {
+            "first_name": "Kunanon",
+            "last_name": "Tonglow",
+            "email": "Kunanon.to.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540197,
+        "fields": {
+            "first_name": "woraon",
+            "last_name": "soontorn",
+            "email": "woraon.so.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540223,
+        "fields": {
+            "first_name": "Sasiwimol",
+            "last_name": "Thonghor",
+            "email": "sasiwimol.th.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Student",
+        "pk": 63114540061,
+        "fields": {
+            "first_name": "Tupsapol",
+            "last_name": "Apibal",
+            "email": "tupsapol.ap.63@ubu.ac.th"
+        }
+    }
+]

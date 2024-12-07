@@ -1,0 +1,29 @@
+[
+    {
+        "model": "classroom.Teacher",
+        "pk": 1,
+        "fields": {
+            "first_name": "chhorpeanraingsey",
+            "last_name": "thab",
+            "email": "chhorpeanraingsey.th.63@ubu.ac.th"
+        }
+    },
+    {
+        "model": "classroom.Teacher",
+        "pk": 2,
+        "fields": {
+            "email": "Narisara.kl.63@ubu.ac.th",
+            "first_name": "Narisara",
+            "last_name": "Klieowthong"
+        }
+    },
+    {
+        "model": "classroom.Teacher",
+        "pk": 3,
+        "fields": {
+            "email": "rungnapa.su.64@ubu.ac.th",
+            "first_name": "rungnapa",
+            "last_name": "sutapak"
+        }
+    }
+]

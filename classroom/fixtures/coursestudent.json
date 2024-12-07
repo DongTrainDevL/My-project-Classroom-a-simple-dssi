@@ -1,0 +1,34 @@
+[
+  {
+    "model": "classroom.CourseStudent",
+    "pk": 1,
+    "fields": {
+      "course": 1145200,
+      "student": 63114540142
+    }
+  },
+  {
+    "model": "classroom.CourseStudent",
+    "pk": 2,
+    "fields": {
+      "course": 1145005,
+      "student": 63114540210
+    }
+  },
+  {
+    "model": "classroom.CourseStudent",
+    "pk": 3,
+    "fields": {
+      "course": 1145005,
+      "student": 63114540283
+    }
+  },
+  {
+    "model": "classroom.CourseStudent",
+    "pk": 4,
+    "fields": {
+      "course": 1145005,
+      "student": 63114540394
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "model": "classroom.Course",
+    "pk": 1145200,
+    "fields": {
+      "subject_name": "Data Warehouse",
+      "teach_date": "Tuesday",
+      "start_time": "13.00",
+      "end_time": "17.00"
+    }
+  },
+  {
+    "model": "classroom.Course",
+    "pk": 1145005,
+    "fields": {
+      "subject_name": "Mobile Development",
+      "teach_date": "Monday",
+      "start_time": "08.00",
+      "end_time": "13.00"
+    }
+  },
+  {
+    "model": "classroom.Course",
+    "pk": 1145009,
+    "fields": {
+      "subject_name": "Cloud computing",
+      "teach_date": "Thursday",
+      "start_time": "08.00",
+      "end_time": "12.00"
+    }
+  }
+]

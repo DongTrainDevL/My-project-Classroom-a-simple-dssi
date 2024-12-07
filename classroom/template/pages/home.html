@@ -1,0 +1,78 @@
+{% extends 'base.html' %} {% block content %}
+<body hhx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+  <header class="w-full mx-auto">
+    <div class="mx-4 my-4">
+      <h1 class="font-bold">Anuban Mee Noi</h1>
+      <p class="text-sm">Ratchathewi, Bangkok 10400</p>
+    </div>
+  </header>
+  
+
+  <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-270" />
+  <!--{<div class="flex justify-center text-sm">
+     { dataframe | safe }}
+    </div><br>-->
+  <div class="flex justify-evenly">
+    <table id="StudentTable" class="table-auto w-1/4">
+      <thead class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
+        <tr class="p-2 whitespace-nowrap font-semibold text-left">
+          <th>No.</th>
+          <th>Firstname</th>
+          <th>Lastname</th>
+        </tr>
+      </thead>
+      <tbody class="text-sm divide-y divide-gray-100">
+        {% for student in student %}
+        <tr class="p-2 whitespace-nowrap text-left">
+          <td>{{ forloop.counter }}</td>
+          <td>{{ student.first_name }}</td>
+          <td>{{ student.last_name }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <table id="TeacherTable" class="table-auto w-1/4">
+      <thead class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
+        <tr class="p-2 whitespace-nowrap font-semibold text-left">
+          <th>No.</th>
+          <th>Firstname</th>
+          <th>Lastname</th>
+        </tr>
+      </thead>
+      <tbody class="text-sm divide-y divide-gray-100">
+        {% for teacher in teacher %}
+        <tr class="p-2 whitespace-nowrap text-left">
+          <td>{{ forloop.counter }}</td>
+          <td>{{ teacher.first_name }}</td>
+          <td>{{ teacher.last_name }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <table id="CourseTable" class="table-auto w-1/4">
+      <thead class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
+        <tr class="p-2 whitespace-nowrap font-semibold text-left">
+          <th>No.</th>
+          <th>Name</th>
+          <th>Teaching Date</th>
+          <th>Start time</th>
+          <th>End time</th>
+        </tr>
+      </thead>
+      <tbody class="text-sm divide-y divide-gray-100">
+        {% for course in course %}
+        <tr class="p-2 whitespace-nowrap text-left">
+          <td>{{ forloop.counter }}</td>
+          <td>{{ course.subject_name }}</td>
+          <td>{{ course.teach_date }}</td>
+          <td>{{ course.start_time }}</td>
+          <td>{{ course.end_time }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</body>
+{% endblock %}

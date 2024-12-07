@@ -1,0 +1,18 @@
+[
+  {
+    "model": "classroom.CourseTeacher",
+    "pk": 1,
+    "fields": {
+        "course": 1145200,
+        "teacher": 1
+    }
+  },
+  {
+    "model": "classroom.CourseTeacher",
+    "pk": 2,
+    "fields": {
+        "course": 1145009,
+        "teacher": 3
+    }
+  }
+]
